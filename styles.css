@@ -118,8 +118,6 @@ section img.logo {
 .section-producto {
   text-align: center;
   background-image: url(./Imagen/background.png);
-  background-size: cover;
-  background-position: center;
   padding: 2rem 1rem;
   font-family: 'Poppins', sans-serif;
   color: #2c2c2c;
