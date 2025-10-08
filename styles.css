@@ -54,13 +54,13 @@ header {
 
 
 /**INDEX-----------------------------------------------------------------------------------------------------------------**/
-.sectionindex { 
+.section-index { 
   text-align: center;
   background-image: url(./Imagen/background.png);
   padding: 2rem;
 }
 
-.sectionindex h1 {
+.section-index h1 {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 3rem;
@@ -81,7 +81,7 @@ section img.logo {
 }
 
 
-.sectionindex h3 a {
+.section-index h3 a {
   display: inline-block;
   padding: 10px 20px;
   background-color: #007bff;
@@ -93,7 +93,7 @@ section img.logo {
   transition: background-color 0.3s ease;
 }
 
-.sectionindex h3 a:hover {
+.section-index h3 a:hover {
   background-color: #0056b3;
 }
 
@@ -115,7 +115,7 @@ section img.logo {
 }
 
 
-.sectionproducto {
+.section-producto {
   text-align: center;
   background-image: url(./Imagen/background.png);
   background-size: cover;
@@ -125,13 +125,13 @@ section img.logo {
   color: #2c2c2c;
 }
 
-.sectionproducto h1 {
+.section-producto h1 {
   font-size: 3rem;
   font-weight: 700;
   margin-bottom: 1rem;
 }
 
-.sectionproducto h2 {
+.section-producto h2 {
   font-size: 2rem;
   font-weight: 700;
   margin-top: 2rem;
@@ -159,7 +159,7 @@ section img.logo {
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
-.card-img-top {
+.card-img {
   width: 100%;
   height: 200px; 
   object-fit: cover;
@@ -184,7 +184,7 @@ section img.logo {
   margin-bottom: 1rem;
 }
 
-.sectionproducto .card .btn {
+.section-producto .card .btn {
   display: inline-block;
   background-color: #0d6efd;
   color: #fff !important;
@@ -196,7 +196,7 @@ section img.logo {
   transition: background-color 0.3s, transform 0.2s;
 }
 
-.sectionproducto .card .btn:hover {
+.section-producto .card .btn:hover {
   background-color: #084298 !important; 
   transform: translateY(-2px);
 }
@@ -206,7 +206,7 @@ section img.logo {
 
 /**CONTACTO-----------------------------------------------------------------------------------------------------------------**/
 
-.sectioncontacto {
+.section-contacto {
   text-align: center;
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
@@ -220,7 +220,7 @@ section img.logo {
   padding: 2rem;
 }
 
-.sectioncontacto form {
+.section-contacto form {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -229,7 +229,7 @@ section img.logo {
   margin: 0 auto;
 }
 
-.sectioncontacto label {
+.section-contacto label {
   display: block;
   margin-bottom: 5px;
   font-weight: 500;
@@ -237,8 +237,8 @@ section img.logo {
   width: 100%;
 }
 
-.sectioncontacto input,
-.sectioncontacto textarea {
+.section-contacto input,
+.section-contacto textarea {
   width: 100%;
   padding: 8px 10px;
   border: 1px solid #ccc;
@@ -248,12 +248,12 @@ section img.logo {
   box-sizing: border-box;
 }
 
-.sectioncontacto textarea {
+.section-contacto textarea {
   resize: vertical;
   min-height: 100px;
 }
 
-.sectioncontacto button {
+.section-contacto button {
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
@@ -264,14 +264,14 @@ section img.logo {
   transition: background-color 0.3s ease;
 }
 
-.sectioncontacto button:hover {
+.section-contacto button:hover {
   background-color: #0056b3;
 }
 
 
 /**COMOCOMPRAR-----------------------------------------------------------------------------------------------------------------------**/
 
-.sectioncomocomprar {
+.section-como-comprar {
   text-align: left;
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
@@ -281,7 +281,7 @@ section img.logo {
   background-image: url(./Imagen/background.png);
   background-size: cover;
 }
-.productos a {
+.nuestros-productos a {
   display: inline-block;
   margin-top: 20px;
   padding: 10px 20px;
@@ -293,7 +293,7 @@ section img.logo {
   transition: background-color 0.3s ease;
 }
 
-.productos a:hover {
+.nuestros-productos a:hover {
   background-color: #0056b3;
 }
 
@@ -335,7 +335,7 @@ footer div:first-child {
   gap: 10px;
 }
 
-.predes {
+.p-redes {
   text-align: center;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
@@ -349,7 +349,7 @@ footer div:first-child div {
   gap: 12px;
 }
 
-.imagenredes {
+.imagen-redes {
     height: 25px;
     width: 25px;
 }
