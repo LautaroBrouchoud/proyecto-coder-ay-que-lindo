@@ -1,0 +1,48 @@
+@use "./variables" as*;
+/** ==========================FOOTER==========================**/
+footer {
+  text-align: center;
+  @include fondo-con-imagen("../Imagen/banner.png");
+  padding: 1rem;
+
+  p {
+    font-family: $font-subtitulo;
+    font-weight: 600;
+    padding: 1rem;
+    margin: 0;
+  }
+
+  a {
+    text-decoration: none;
+    color: #000;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: $color-primario;
+    }
+  }
+
+  div:first-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    .p-redes {
+      font-weight: 400;
+      margin: 0;
+    }
+
+    div {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+
+      .imagen-redes {
+        height: 25px;
+        width: 25px;
+      }
+    }
+  }
+}

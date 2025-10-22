@@ -1,0 +1,14 @@
+@use "../generales/variables" as*;
+/** ==========================COMO COMPRAR==========================**/
+
+.section-como-comprar {
+  @extend .section-base;
+  text-align: left;
+  @include fondo-con-imagen("../Imagen/background.png");
+  padding: 30px;
+
+  .nuestros-productos a {
+    @include boton-base;
+  }
+}
+

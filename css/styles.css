@@ -1,0 +1,313 @@
+/** ==========================FUENTES==========================**/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/**==========================RESET BASICO==========================**/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section-producto, .section-contacto, .section-como-comprar {
+  font-family: "Montserrat", sans-serif;
+  background-color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  padding: 2rem 1rem;
+  color: #2c2c2c;
+}
+
+.section-producto .card {
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.section-producto .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+/** ==========================COMO COMPRAR==========================**/
+.section-como-comprar {
+  text-align: left;
+  background-image: url("../Imagen/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+}
+.section-como-comprar .nuestros-productos a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.section-como-comprar .nuestros-productos a:hover {
+  background-color: #0056b3;
+}
+
+/** ==========================CONTACTO==========================**/
+.section-contacto {
+  background-image: url("../Imagen/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 60vh;
+}
+.section-contacto form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+.section-contacto form label {
+  margin-bottom: 5px;
+  font-weight: 500;
+  text-align: left;
+  width: 100%;
+}
+.section-contacto form input,
+.section-contacto form textarea {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+}
+.section-contacto form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+.section-contacto form button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.section-contacto form button:hover {
+  background-color: #0056b3;
+}
+.section-contacto form button {
+  font-size: 1rem;
+}
+
+/** ==========================PRODUCTOS==========================**/
+.section-producto {
+  background-image: url("../Imagen/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.section-producto .card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+.section-producto .card {
+  width: 20%;
+  min-width: 200px;
+  max-width: 300px;
+}
+.section-producto .card .card-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.section-producto .card .card-body {
+  padding: 1rem;
+}
+.section-producto .card .card-body .card-title {
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+.section-producto .card .card-body .card-text {
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+.section-producto .card .card-body .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0d6efd;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.section-producto .card .card-body .btn:hover {
+  background-color: #084298;
+}
+.section-producto .catalogo-img {
+  width: 80%;
+  max-width: 600px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.section-producto .catalogo-img:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+/** ==========================INDEX==========================**/
+.section-index {
+  text-align: center;
+  background-image: url("../Imagen/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 2rem;
+}
+.section-index h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.section-index .lorem {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  max-width: 700px;
+  margin: 0 auto 2rem;
+}
+.section-index img.logo {
+  max-width: 250px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+.section-index h3 a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.section-index h3 a:hover {
+  background-color: #0056b3;
+}
+.section-index h3 a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: sans-serif;
+}
+
+/** ==========================FOOTER==========================**/
+footer {
+  text-align: center;
+  background-image: url("../Imagen/banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 1rem;
+}
+footer p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  padding: 1rem;
+  margin: 0;
+}
+footer a {
+  text-decoration: none;
+  color: #000;
+  transition: color 0.3s ease;
+}
+footer a:hover {
+  color: #007bff;
+}
+footer div:first-child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+footer div:first-child .p-redes {
+  font-weight: 400;
+  margin: 0;
+}
+footer div:first-child div {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+footer div:first-child div .imagen-redes {
+  height: 25px;
+  width: 25px;
+}
+
+/** ==========================HEADER==========================**/
+header {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+header .banner {
+  background-image: url("../Imagen/banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  display: flex;
+  align-items: center;
+}
+header .links {
+  color: rgb(12, 16, 240);
+  padding: 1rem;
+}
+header .barra {
+  width: 100%;
+  margin: 0;
+  border-radius: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+header .barra .contenedor {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/** ==========================MEDIA QUERIES==========================**/
+@media (max-width: 480px) {
+  .card {
+    width: 90%;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .card {
+    width: 45%;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

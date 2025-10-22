@@ -1,0 +1,34 @@
+@use "../generales/variables" as*;
+/** ==========================INDEX==========================**/
+
+.section-index {
+  text-align: center;
+  @include fondo-con-imagen("../Imagen/background.png");
+  padding: 2rem;
+
+  h1 {
+    font-family: $font-titulo;
+    font-weight: 400;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .lorem {
+    font-family: $font-titulo;
+    font-weight: 300;
+    max-width: 700px;
+    margin: 0 auto 2rem;
+  }
+
+  img.logo {
+    max-width: 250px;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+
+  h3 a {
+    @include boton-base;
+    font-family: $font-subtitulo;
+    font-weight: 500;
+  }
+}

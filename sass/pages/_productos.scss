@@ -1,0 +1,58 @@
+@use "../generales/variables" as*;
+/** ==========================PRODUCTOS==========================**/
+
+.section-producto {
+  @extend .section-base;
+  @include fondo-con-imagen("../Imagen/background.png");
+
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .card {
+    @extend .card-base;
+    width: 20%;
+    min-width: 200px;
+    max-width: 300px;
+
+    .card-img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .card-body {
+      padding: 1rem;
+
+      .card-title {
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+      }
+
+      .card-text {
+        font-size: 0.9rem;
+        margin-bottom: 1rem;
+      }
+
+      .btn {
+        @include boton-base(#0d6efd, #084298);
+      }
+    }
+  }
+
+  .catalogo-img {
+    width: 80%;
+    max-width: 600px;
+    border-radius: 15px;
+    @include sombra-suave;
+
+    &:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    }
+  }
+}
