@@ -8,7 +8,7 @@
   box-sizing: border-box;
 }
 
-.section-producto, .section-contacto, .section-como-comprar {
+.section-base, .section-producto, .section-contacto, .section-como-comprar {
   font-family: "Montserrat", sans-serif;
   background-color: rgba(255, 255, 255, 0.9);
   text-align: center;
@@ -16,14 +16,14 @@
   color: #2c2c2c;
 }
 
-.section-producto .card {
+.card-base, .section-producto .card {
   background-color: rgba(255, 255, 255, 0.95);
   border-radius: 15px;
   overflow: hidden;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s, box-shadow 0.3s;
 }
-.section-producto .card:hover {
+.card-base:hover, .section-producto .card:hover {
   transform: translateY(-5px);
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
 }
@@ -35,6 +35,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   padding: 30px;
 }
 .section-como-comprar .nuestros-productos a {
@@ -59,6 +60,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -116,6 +118,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
 }
 .section-producto .card-container {
   display: flex;
@@ -179,6 +182,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   padding: 2rem;
 }
 .section-index h1 {
@@ -231,6 +235,7 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   padding: 1rem;
 }
 footer p {
@@ -279,6 +284,7 @@ header .banner {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   height: 200px;
   display: flex;
   align-items: center;
